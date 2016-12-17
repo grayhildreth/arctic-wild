@@ -16,7 +16,6 @@ body {
   margin: 0;
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
   color: white;
   font-family: $main-font;
 }
@@ -86,3 +85,66 @@ body {
       padding: 0 2em;
     }
 }
+
+// gallery
+
+.gallery-area {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+  .rafting {
+    display: flex;
+    background-image: url('../img/gallery1.jpg');
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .basecamp {
+    display: flex;
+    background-image: url('../img/gallery2.jpg');
+    width: 25vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .backpacking {
+    display: flex;
+    background-image: url('../img/gallery3.jpg');
+    width: 25vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .canoe {
+    display: flex;
+    background-image: url('../img/gallery4.jpg');
+    width: 25vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .photography {
+    display: flex;
+    background-image: url('../img/gallery5.jpg');
+    width: 25vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .custom {
+    display: flex;
+    background-image: url('../img/gallery6.jpg');
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
