@@ -97,54 +97,99 @@ body {
 
   .rafting {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery1.jpg');
     width: 50vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
-  }
+    align-items: center;
+    justify-content: center;
+}
 
   .basecamp {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery2.jpg');
     width: 25vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
-  }
+    align-items: center;
+    justify-content: center;
+}
 
   .backpacking {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery3.jpg');
     width: 25vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
-  }
+    align-items: center;
+    justify-content: center;
+}
 
   .canoe {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery4.jpg');
     width: 25vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .photography {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery5.jpg');
     width: 25vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .custom {
     display: flex;
+    flex-direction: column;
     background-image: url('../img/gallery6.jpg');
     width: 50vw;
     height: 50vh;
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-content: center;
   }
+
+  .gallery-area p {
+    display: flex;
+    align-items: flex-start;
+    border-top: 3px solid $orange;
+    margin-top: 4em;
+  }
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      opacity: 0.75;
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      margin: 0;
+      padding: 0;
+    }
+}
