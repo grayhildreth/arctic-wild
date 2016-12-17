@@ -46,7 +46,8 @@ body {
 }
 
 .main-content {
-  margin-top: 4em;
+  // margin-top: 4em;
+  padding-top: 5em;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +79,7 @@ body {
   background-repeat: repeat-x;
   align-items: center;
   justify-content: space-between;
+  font-family: $second-font;
 }
 
 .nav-secondary ul {
@@ -202,6 +204,10 @@ body {
 }
 
 @media only screen and (max-width: 1050px) {
+  .nav-main, .links {
+    display: none;
+  }
+
   .rafting {
     height: 50vh;
     width: 100vw;
