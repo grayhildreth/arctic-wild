@@ -200,3 +200,35 @@ body {
   transform: scale(1.5);
   transition: all 1s;
 }
+
+@media only screen and (max-width: 1050px) {
+  .rafting {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .basecamp {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .backpacking {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .canoe {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .photography {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .custom {
+    height: 50vh;
+    width: 100vw;
+  }
+}
