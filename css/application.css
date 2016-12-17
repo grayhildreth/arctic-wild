@@ -66,10 +66,13 @@ body {
   width: 100%;
   background-image: url("../img/middle-nav.jpg");
   background-repeat: repeat-x;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
 
 .nav-secondary ul {
   display: flex;
   list-style-type: none; }
+  .nav-secondary ul li {
+    padding: 0 2em; }
 
 /*# sourceMappingURL=application.css.map */

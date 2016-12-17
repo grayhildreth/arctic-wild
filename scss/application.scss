@@ -76,9 +76,13 @@ body {
   background-image: url('../img/middle-nav.jpg');
   background-repeat: repeat-x;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-secondary ul {
   display: flex;
   list-style-type: none;
+    li {
+      padding: 0 2em;
+    }
 }
