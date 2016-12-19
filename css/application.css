@@ -165,7 +165,8 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  transition: all 1s ease-in-out; }
   .icon img {
     opacity: 0.75;
     width: 50px;
@@ -175,8 +176,7 @@ body {
     padding: 0; }
 
 .icon:hover {
-  transform: scale(1.5);
-  transition: all 1s; }
+  transform: scale(1.5); }
 
 @media only screen and (max-width: 1050px) {
   .nav-main, .links {
